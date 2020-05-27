@@ -8,7 +8,7 @@ __👌  The follwing is setup out of the box:__
 - Consistent coding styles using [EditorConfig](https://editorconfig.org/)
 - Linting via [eslint](https://eslint.org/), [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) and [prettier](https://prettier.io/)
 - Styles via [Styled Components](https://styled-components.com/)
-- Routes via [React Router](https://github.com/ReactTraining/react-router#readme)
+- Routes via [React Navigation](https://reactnavigation.org/)
 
 ## 🚀 Getting Started
 
@@ -21,7 +21,7 @@ cd your-project-name
 
 rm -rf .git
 yarn install
-yarn start
+yarn android | ios
 ```
 
 ## Main files
@@ -36,4 +36,3 @@ yarn start
 | .editorconfig | EditorConfig settings |
 | .eslintrc.json | Eslint Settings |
 | prettier.config.js | Prettier settings |
-| tsconfig.json | Typescript settings |
