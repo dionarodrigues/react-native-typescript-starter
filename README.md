@@ -24,6 +24,8 @@ yarn install
 yarn android | ios
 ```
 
+Please, read the documentation to apply the [correct settings for React Navigation](https://reactnavigation.org/). It will depend on the OS you are working on.
+
 ## Main files
 
 |  Name | Description |
