@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { Container } from './styles';
+import * as S from './styles';
 
 const SignUp: React.FC = () => {
-  return <Container />;
+  return <S.Container />;
 };
 
 export default SignUp;
